@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="hora"></h1>
+
+    <div class="login">
+      <img class="logo" src="logo.PNG" alt="" />
+
+      <div class="inputs ">
+        <div>
+          <label for="">USUÁRIO</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label for="">SENHA</label>
+          <input type="password" />
+        </div>
+        <img src="btn.png" class="login-btn" alt=""   onclick="mudartela()"/>
+    </div>
+    
+      <p>ESQUECEU A SENHA</p>
+      <div class="linha"></div>
+      
+      <p>ALTERAR SENHA</p>
+      <div class="linha"></div>
+    </div>
+    
+    <div class="erro hide">
+        <div class="texto">
+            <h2>NÃO FOI POSSÍVEL FAZER LOGON</h2>
+            <h4>Nome de usuário ou senha incorretas.</h4>
+        </div>
+        <img src="btn.png" class="login-btn" alt="" onclick="mudartela()" />
+        <p>OK</p>
+
+    </div>
+
+    <img src="power.png" class="power" alt="" />
+  </body>
+</html>
